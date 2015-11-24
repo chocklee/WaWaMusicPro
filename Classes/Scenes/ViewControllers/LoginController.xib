@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R1I-JK-KFQ">
+                    <rect key="frame" x="100" y="200" width="32" height="32"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="32" id="Aeb-96-aLo"/>
+                        <constraint firstAttribute="height" constant="32" id="Qob-q7-elA"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="weixin"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vT-ii-dxu">
+                    <rect key="frame" x="243" y="200" width="32" height="32"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="NTl-av-0gS"/>
+                        <constraint firstAttribute="width" constant="32" id="OBE-yX-XKS"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="erji"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="微信登录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ba-e8-Bhh">
+                    <rect key="frame" x="82" y="240" width="68" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="随便逛逛" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heT-Qq-Kdu">
+                    <rect key="frame" x="225" y="240" width="68" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="登录后,把音乐装进口袋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FhH-93-MuF">
+                    <rect key="frame" x="100" y="291" width="175" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shuxian" translatesAutoresizingMaskIntoConstraints="NO" id="BX2-qX-SrQ">
+                    <rect key="frame" x="172" y="200" width="32" height="60"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="wUd-df-FYJ"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="BX2-qX-SrQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="200" id="2Vp-AX-pVf"/>
+                <constraint firstItem="FhH-93-MuF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="35E-3w-8vM"/>
+                <constraint firstAttribute="trailing" secondItem="0vT-ii-dxu" secondAttribute="trailing" constant="100" id="Aq1-6l-7hB"/>
+                <constraint firstItem="0vT-ii-dxu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="200" id="OwC-2y-zck"/>
+                <constraint firstItem="R1I-JK-KFQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="100" id="So2-Xo-LTY"/>
+                <constraint firstItem="heT-Qq-Kdu" firstAttribute="centerX" secondItem="0vT-ii-dxu" secondAttribute="centerX" id="WKR-by-zhA"/>
+                <constraint firstItem="FhH-93-MuF" firstAttribute="top" secondItem="5ba-e8-Bhh" secondAttribute="bottom" constant="30" id="acl-Vl-pch"/>
+                <constraint firstItem="5ba-e8-Bhh" firstAttribute="centerX" secondItem="R1I-JK-KFQ" secondAttribute="centerX" id="beB-SY-B4l"/>
+                <constraint firstItem="BX2-qX-SrQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gKJ-fn-yUy"/>
+                <constraint firstItem="heT-Qq-Kdu" firstAttribute="top" secondItem="0vT-ii-dxu" secondAttribute="bottom" constant="8" id="nEZ-sl-eiZ"/>
+                <constraint firstItem="R1I-JK-KFQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="200" id="zKv-NT-o6w"/>
+                <constraint firstItem="5ba-e8-Bhh" firstAttribute="top" secondItem="R1I-JK-KFQ" secondAttribute="bottom" constant="8" id="zpA-1J-1Sc"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="350.5" y="376.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="erji" width="32" height="32"/>
+        <image name="shuxian" width="32" height="32"/>
+        <image name="weixin" width="32" height="32"/>
+    </resources>
+</document>
